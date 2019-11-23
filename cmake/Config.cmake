@@ -209,7 +209,7 @@ if(RENDER_SFML2)
     set(GWK_RENDER_NAME "SFML2")
     set(GWK_INPUT_NAME "SFML2")
     set(GWK_PLATFORM_NAME "Cross")
-    set(SFML_STATIC_LIBRARIES FALSE) # But note we edited FindSFML...
+    set(SFML_STATIC_LIBRARIES TRUE) # But note we edited FindSFML...
     find_package(OpenGL REQUIRED)
     if(USE_SFML_CONFIG)
         find_package(SFML 2 CONFIG COMPONENTS system window graphics REQUIRED)
