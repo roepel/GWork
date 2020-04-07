@@ -42,6 +42,11 @@ int Properties::GetSplitWidth()
     return m_splitterBar->X();
 }
 
+void Properties::SetSplitWidth(int Width)
+{
+    m_splitterBar->SetPos(Width, m_splitterBar->Y());
+}
+
 PropertyRow* Properties::Add(const String& text, const String& value)
 {
     return Add(text, new Property::Text(this), value);

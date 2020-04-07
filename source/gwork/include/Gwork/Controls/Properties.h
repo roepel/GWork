@@ -38,6 +38,7 @@ namespace Gwk
             PropertyRow* Find(const String& text);
 
             virtual int GetSplitWidth();
+            void SetSplitWidth(int Width);
 
             virtual void Clear();
 
