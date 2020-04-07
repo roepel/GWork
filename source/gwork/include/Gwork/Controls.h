@@ -22,6 +22,7 @@
 #include <Gwork/Controls/Property/ColorSelector.h>
 #include <Gwork/Controls/Property/Folder.h>
 #include <Gwork/Controls/Property/File.h>
+#include <Gwork/Controls/Property/Slider.h>
 #include <Gwork/Controls/Property/Text.h>
 #include <Gwork/Controls/Property/ComboBox.h>
 #include <Gwork/Controls/StatusBar.h>
